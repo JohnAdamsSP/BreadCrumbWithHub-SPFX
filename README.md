@@ -2,7 +2,7 @@
 
 John Adams 17/06/2021
 
-This application customiser is based on the pnp breadcrumb sample, with changes specific to TSG requirements. As such some code was not written by the app author but has been thouroughly checked and understood before being used within this app.
+This application customiser is based on the pnp breadcrumb sample, with changes specific to include the hub within the breadcrumb choices. As such some code was not written by the app author but has been thouroughly checked and understood before being used within this app.
 
 # breadcrumb
 
