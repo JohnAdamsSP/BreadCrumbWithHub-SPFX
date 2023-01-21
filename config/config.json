@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "breadcrumb-ac-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/breadcrumbAc/BreadcrumbAcApplicationCustomizer.js",
+          "manifest": "./src/extensions/breadcrumbAc/BreadcrumbAcApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BreadcrumbAcApplicationCustomizerStrings": "lib/extensions/breadcrumbAc/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

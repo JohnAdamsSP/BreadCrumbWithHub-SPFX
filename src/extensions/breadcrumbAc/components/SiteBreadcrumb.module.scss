@@ -1,0 +1,34 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.breadcrumb {
+  >div {
+    padding-left: 7px;
+  }
+  .msBgColorThemePrimary{
+    background-color: "[theme:themePrimary, default:#0078d7]"; 
+   // background-color: #008D9F;
+  }
+  div[role="navigation"] {
+    margin-top: 0;
+  }
+  .breadcrumbLinks {
+    ol {
+      li {
+        a {
+         color: "[theme:white, default:#ffffff]" !important;
+          font-size: 12px;
+          font-weight: normal !important;
+          padding: 4px 8px 8px 8px;
+          &:hover {
+            background-color: #009cb0;
+          }
+        }
+        i {
+          color: "[theme:white, default:#ffffff]";
+          font-size: 12px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}

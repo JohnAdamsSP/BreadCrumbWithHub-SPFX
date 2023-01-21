@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://adams.sharepoint.com/sites/HUB/CrossPhorumTeam1/SitePages/Home.aspx",
+      "customActions": {
+        "df53e849-ac8c-44b4-8362-4d1caa42c40a": {
+          "location": "ClientSideExtension.ApplicationCustomizer"
+        }
+      }
+    },
+    "breadcrumbAc": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "customActions": {
+        "df53e849-ac8c-44b4-8362-4d1caa42c40a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

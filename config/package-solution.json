@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "breadcrumb-client-side-solution",
+    "id": "d7c0dfa0-b379-4e7f-a7a3-34c06e9320f5",
+    "version": "1.0.0.53",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "John Adams - Adams Technology Limited",
+      "websiteUrl": "www.SPonline.co.uk",
+      "privacyUrl": "www.SPonline.co.uk/Privacy",
+      "termsOfUseUrl": "www.SPonline.co.uk/Terms",
+      "mpnId": ""
+    },
+    "features": [
+      {
+        "title": "Breadcrumb",
+        "description": "Site Breadcrumb bar",
+        "id": "36dcbee1-7637-4163-b695-8e036e03fade",
+        "version": "1.0.0.53",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/breadcrumb.sppkg"
+  }
+}

@@ -1,0 +1,26 @@
+/* 
+.sp-appBar{
+    display: none !important;
+}
+#O365_MainLink_NavMenu{
+    display: none !important;
+}
+#O365_HeaderLeftRegion{
+    display: none !important;
+}
+#TipsNTricksButton_container{
+    display: none !important;  
+}
+.o365sx-appName span {
+    display: none;
+  }
+.o365sx-appName:after {
+    content: 'The BioPhorum Hub - Connect. Collaborate. Accelerate. ™';
+    font-family: SegoeUI-SemiBold-final,Segoe UI Semibold,SegoeUI-Regular-final,Segoe UI,"Segoe UI Web (West European)",Segoe,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Tahoma,Helvetica,Arial,sans-serif;
+  }
+.ms-suiteux-search-box{
+    display: none !important;
+}
+#O365_SearchBoxContainer_container{
+    display: none !important;
+}*/
